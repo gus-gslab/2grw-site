@@ -3,9 +3,8 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 import { Check, Zap, Star, ArrowRight, Crown, Shield, Rocket } from "lucide-react";
-import { composerReveal, composerStaggerContainer, composerStaggerItem, composerHover } from "@/lib/animations";
+import { composerReveal, composerStaggerContainer, composerStaggerItem } from "@/lib/animations";
 import { GradientButton } from "@/components/ui/gradient-button";
-import { PRICING_PLANS } from "@/lib/constants";
 
 export function PricingSection() {
   const features = [
@@ -60,7 +59,7 @@ export function PricingSection() {
           
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-semibold text-white mb-8">
             Choose your{" "}
-            <span className="bg-gradient-to-r from-purple-500 via-lime-400 to-white bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-purple-500 via-lime-400 to-white bg-clip-text text-transparent">
               investment plan
             </span>
           </h1>
@@ -82,7 +81,7 @@ export function PricingSection() {
             style={{boxShadow: '0 25px 50px rgba(0, 0, 0, 0.3)'}}
           >
             <div className="text-center mb-8">
-              <div className="w-16 h-16 rounded-2xl bg-gradient-to-r from-gray-500 to-gray-600 flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 rounded-2xl bg-linear-to-r from-gray-500 to-gray-600 flex items-center justify-center mx-auto mb-4">
                 <Shield className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-2">Free</h3>
@@ -94,7 +93,7 @@ export function PricingSection() {
             <ul className="space-y-4 mb-8">
               {features.map((feature, index) => (
                 <li key={index} className="flex items-center text-gray-300">
-                  <Check className="w-5 h-5 text-green-400 mr-3 flex-shrink-0" />
+                  <Check className="w-5 h-5 text-green-400 mr-3 shrink-0" />
                   <span className="text-sm">{feature}</span>
                 </li>
               ))}
@@ -113,14 +112,14 @@ export function PricingSection() {
           >
             {/* Popular Badge */}
             <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-              <div className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-1 rounded-full text-sm font-medium flex items-center">
+              <div className="bg-linear-to-r from-purple-500 to-pink-500 text-white px-4 py-1 rounded-full text-sm font-medium flex items-center">
                 <Star className="w-4 h-4 mr-1" />
                 Most Popular
               </div>
             </div>
 
             <div className="text-center mb-8">
-              <div className="w-16 h-16 rounded-2xl bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 rounded-2xl bg-linear-to-r from-purple-500 to-pink-500 flex items-center justify-center mx-auto mb-4">
                 <Crown className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-2">Pro</h3>
@@ -132,7 +131,7 @@ export function PricingSection() {
             <ul className="space-y-4 mb-8">
               {proFeatures.map((feature, index) => (
                 <li key={index} className="flex items-center text-gray-300">
-                  <Check className="w-5 h-5 text-green-400 mr-3 flex-shrink-0" />
+                  <Check className="w-5 h-5 text-green-400 mr-3 shrink-0" />
                   <span className="text-sm">{feature}</span>
                 </li>
               ))}
@@ -150,7 +149,7 @@ export function PricingSection() {
             style={{boxShadow: '0 25px 50px rgba(0, 0, 0, 0.3)'}}
           >
             <div className="text-center mb-8">
-              <div className="w-16 h-16 rounded-2xl bg-gradient-to-r from-yellow-500 to-orange-500 flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 rounded-2xl bg-linear-to-r from-yellow-500 to-orange-500 flex items-center justify-center mx-auto mb-4">
                 <Rocket className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-white mb-2">Enterprise</h3>
@@ -162,7 +161,7 @@ export function PricingSection() {
             <ul className="space-y-4 mb-8">
               {enterpriseFeatures.map((feature, index) => (
                 <li key={index} className="flex items-center text-gray-300">
-                  <Check className="w-5 h-5 text-green-400 mr-3 flex-shrink-0" />
+                  <Check className="w-5 h-5 text-green-400 mr-3 shrink-0" />
                   <span className="text-sm">{feature}</span>
                 </li>
               ))}

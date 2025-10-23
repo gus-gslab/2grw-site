@@ -91,7 +91,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
         </section>
       </main>
       
-      <Footer className="relative z-20" />
+      <Footer />
     </div>
   );
 }
