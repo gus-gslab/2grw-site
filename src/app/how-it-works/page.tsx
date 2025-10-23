@@ -22,7 +22,7 @@ export default function HowItWorksPage() {
         </section>
       </main>
       
-      <Footer className="relative z-20" />
+      <Footer />
     </div>
   );
 }

@@ -46,7 +46,7 @@ export function HomePageClient() {
           </section>
         </main>
         
-        <Footer className="relative z-20" />
+        <Footer />
       </div>
     </>
   );
