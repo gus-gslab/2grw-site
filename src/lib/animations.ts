@@ -2,19 +2,19 @@
 export const fadeInUp = {
   initial: { opacity: 0, y: 60 },
   animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.8, ease: "easeInOut" }
+  transition: { duration: 0.8 }
 };
 
 export const fadeInLeft = {
   initial: { opacity: 0, x: -60 },
   animate: { opacity: 1, x: 0 },
-  transition: { duration: 0.8, ease: "easeInOut" }
+  transition: { duration: 0.8 }
 };
 
 export const fadeInRight = {
   initial: { opacity: 0, x: 60 },
   animate: { opacity: 1, x: 0 },
-  transition: { duration: 0.8, ease: "easeInOut" }
+  transition: { duration: 0.8 }
 };
 
 export const staggerContainer = {
@@ -28,29 +28,29 @@ export const staggerContainer = {
 export const staggerItem = {
   initial: { opacity: 0, y: 20 },
   animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.6, ease: "easeInOut" }
+  transition: { duration: 0.6 }
 };
 
 export const scaleIn = {
   initial: { opacity: 0, scale: 0.8 },
   animate: { opacity: 1, scale: 1 },
-  transition: { duration: 0.6, ease: "easeInOut" }
+  transition: { duration: 0.6 }
 };
 
 export const slideInFromBottom = {
   initial: { opacity: 0, y: 100 },
   animate: { opacity: 1, y: 0 },
-  transition: { duration: 1, ease: "easeInOut" }
+  transition: { duration: 1 }
 };
 
 // Hover animations
 export const hoverScale = {
-  transition: { duration: 0.3, ease: "easeInOut" }
+  transition: { duration: 0.3 }
 };
 
 export const hoverLift = {
   whileHover: { y: -8 },
-  transition: { duration: 0.3, ease: "easeInOut" }
+  transition: { duration: 0.3 }
 };
 
 // Button animations
@@ -58,7 +58,7 @@ export const buttonHover = {
   whileHover: { 
     boxShadow: "0 20px 40px rgba(0,0,0,0.1)"
   },
-  transition: { duration: 0.2, ease: "easeInOut" }
+  transition: { duration: 0.2 }
 };
 
 // Neon effects
@@ -66,28 +66,28 @@ export const neonGlow = {
   whileHover: {
     boxShadow: "0 0 20px rgba(139, 92, 246, 0.6), 0 0 40px rgba(139, 92, 246, 0.4), 0 0 60px rgba(139, 92, 246, 0.2)"
   },
-  transition: { duration: 0.3, ease: "easeInOut" }
+  transition: { duration: 0.3 }
 };
 
 export const neonGlowPurple = {
   whileHover: {
     boxShadow: "0 0 20px rgba(139, 92, 246, 0.8), 0 0 40px rgba(139, 92, 246, 0.6), 0 0 60px rgba(139, 92, 246, 0.4)"
   },
-  transition: { duration: 0.3, ease: "easeInOut" }
+  transition: { duration: 0.3 }
 };
 
 export const neonGlowCyan = {
   whileHover: {
     boxShadow: "0 0 20px rgba(6, 182, 212, 0.8), 0 0 40px rgba(6, 182, 212, 0.6), 0 0 60px rgba(6, 182, 212, 0.4)"
   },
-  transition: { duration: 0.3, ease: "easeInOut" }
+  transition: { duration: 0.3 }
 };
 
 export const neonGlowGreen = {
   whileHover: {
     boxShadow: "0 0 20px rgba(34, 197, 94, 0.8), 0 0 40px rgba(34, 197, 94, 0.6), 0 0 60px rgba(34, 197, 94, 0.4)"
   },
-  transition: { duration: 0.3, ease: "easeInOut" }
+  transition: { duration: 0.3 }
 };
 
 // Neon background effects inspired by Solana
@@ -101,7 +101,6 @@ export const neonBackgroundPurple = {
   transition: {
     duration: 20,
     repeat: Infinity,
-    ease: "easeInOut"
   }
 };
 
@@ -115,7 +114,6 @@ export const neonBackgroundCyan = {
   transition: {
     duration: 25,
     repeat: Infinity,
-    ease: "easeInOut"
   }
 };
 
@@ -129,7 +127,6 @@ export const neonBackgroundGreen = {
   transition: {
     duration: 30,
     repeat: Infinity,
-    ease: "easeInOut"
   }
 };
 
@@ -143,7 +140,6 @@ export const neonBackgroundPink = {
   transition: {
     duration: 35,
     repeat: Infinity,
-    ease: "easeInOut"
   }
 };
 
@@ -153,39 +149,39 @@ export const cardHover = {
     y: -12,
     boxShadow: "0 25px 50px rgba(0,0,0,0.15)"
   },
-  transition: { duration: 0.4, ease: "easeInOut" }
+  transition: { duration: 0.4 }
 };
 
 // Parallax effect
 export const parallax = {
   initial: { opacity: 0, y: 100 },
   whileInView: { opacity: 1, y: 0 },
-  transition: { duration: 1.2, ease: "easeInOut" }
+  transition: { duration: 1.2 }
 };
 
 // Advanced scroll animations
 export const scrollReveal = {
   initial: { opacity: 0, y: 80 },
   whileInView: { opacity: 1, y: 0 },
-  transition: { duration: 0.8, ease: "easeInOut" }
+  transition: { duration: 0.8 }
 };
 
 export const scrollRevealLeft = {
   initial: { opacity: 0, x: -80 },
   whileInView: { opacity: 1, x: 0 },
-  transition: { duration: 0.8, ease: "easeInOut" }
+  transition: { duration: 0.8 }
 };
 
 export const scrollRevealRight = {
   initial: { opacity: 0, x: 80 },
   whileInView: { opacity: 1, x: 0 },
-  transition: { duration: 0.8, ease: "easeInOut" }
+  transition: { duration: 0.8 }
 };
 
 export const scrollRevealScale = {
   initial: { opacity: 0, scale: 0.8 },
   whileInView: { opacity: 1, scale: 1 },
-  transition: { duration: 0.8, ease: "easeInOut" }
+  transition: { duration: 0.8 }
 };
 
 export const scrollRevealStagger = {
@@ -193,7 +189,6 @@ export const scrollRevealStagger = {
   whileInView: { opacity: 1, y: 0 },
   transition: { 
     duration: 0.6, 
-    ease: "easeInOut"
   }
 };
 
@@ -210,13 +205,13 @@ export const scrollRevealStaggerContainer = {
 export const scrollRevealRotate = {
   initial: { opacity: 0, rotate: -10, scale: 0.9 },
   whileInView: { opacity: 1, rotate: 0, scale: 1 },
-  transition: { duration: 0.8, ease: "easeInOut" }
+  transition: { duration: 0.8 }
 };
 
 export const scrollRevealSlide = {
   initial: { opacity: 0, y: 100, rotateX: 15 },
   whileInView: { opacity: 1, y: 0, rotateX: 0 },
-  transition: { duration: 1, ease: "easeInOut" }
+  transition: { duration: 1 }
 };
 
 // Composer-inspired advanced scroll animations
@@ -228,7 +223,7 @@ export const composerReveal = {
     scale: 1,
     transition: {
       duration: 1.2,
-      ease: "easeInOut",
+,
       staggerChildren: 0.1
     }
   },
@@ -243,7 +238,6 @@ export const composerRevealLeft = {
     rotateY: 0,
     transition: {
       duration: 1.2,
-      ease: "easeInOut"
     }
   },
   viewport: { once: true, margin: "-100px" }
@@ -257,7 +251,6 @@ export const composerRevealRight = {
     rotateY: 0,
     transition: {
       duration: 1.2,
-      ease: "easeInOut"
     }
   },
   viewport: { once: true, margin: "-100px" }
@@ -271,7 +264,6 @@ export const composerRevealScale = {
     rotateZ: 0,
     transition: {
       duration: 1.2,
-      ease: "easeInOut"
     }
   },
   viewport: { once: true, margin: "-100px" }
@@ -297,7 +289,6 @@ export const composerStaggerItem = {
     scale: 1,
     transition: {
       duration: 0.8,
-      ease: "easeInOut"
     }
   }
 };
@@ -311,7 +302,6 @@ export const composerHover = {
   },
   transition: { 
     duration: 0.3, 
-    ease: "easeInOut" 
   }
 };
 
@@ -323,7 +313,6 @@ export const composerHoverGlow = {
   },
   transition: { 
     duration: 0.4, 
-    ease: "easeInOut" 
   }
 };
 
@@ -336,7 +325,7 @@ export const chartReveal = {
     y: 0,
     transition: {
       duration: 1.2,
-      ease: "easeInOut",
+,
       delay: 0.2
     }
   },
@@ -350,7 +339,7 @@ export const chartStagger = {
     scale: 1,
     transition: {
       duration: 0.6,
-      ease: "easeInOut",
+,
       staggerChildren: 0.1
     }
   }
@@ -365,7 +354,6 @@ export const dashboardReveal = {
     scale: 1,
     transition: {
       duration: 1.4,
-      ease: "easeInOut"
     }
   },
   viewport: { once: true, margin: "-150px" }
@@ -379,7 +367,6 @@ export const textReveal = {
     y: 0,
     transition: {
       duration: 0.8,
-      ease: "easeInOut"
     }
   },
   viewport: { once: true, margin: "-50px" }
@@ -392,7 +379,7 @@ export const textStagger = {
     y: 0,
     transition: {
       duration: 0.6,
-      ease: "easeInOut",
+,
       staggerChildren: 0.1
     }
   }
