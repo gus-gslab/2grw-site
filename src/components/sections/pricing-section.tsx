@@ -192,7 +192,7 @@ export function PricingSection() {
               <h3 className="text-xl font-bold text-white mb-4">Can I change plans anytime?</h3>
               <p className="text-gray-300">
                 Yes! You can upgrade or downgrade your plan at any time. Changes take effect immediately, 
-                and we'll prorate any billing differences.
+                and we&apos;ll prorate any billing differences.
               </p>
             </div>
             <div>
@@ -212,8 +212,8 @@ export function PricingSection() {
             <div>
               <h3 className="text-xl font-bold text-white mb-4">Do you offer refunds?</h3>
               <p className="text-gray-300">
-                Yes! We offer a 30-day money-back guarantee for all paid plans. If you're not satisfied, 
-                we'll refund your payment in full.
+                Yes! We offer a 30-day money-back guarantee for all paid plans. If you&apos;re not satisfied, 
+                we&apos;ll refund your payment in full.
               </p>
             </div>
           </div>
