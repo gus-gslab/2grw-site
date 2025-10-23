@@ -223,7 +223,6 @@ export const composerReveal = {
     scale: 1,
     transition: {
       duration: 1.2,
-,
       staggerChildren: 0.1
     }
   },
