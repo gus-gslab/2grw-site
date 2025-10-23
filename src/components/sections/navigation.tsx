@@ -2,17 +2,16 @@
 
 import * as React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-import { Menu, X, Twitter, Linkedin, Github, Instagram, LogIn } from "lucide-react";
+import { Menu, X, Twitter, Instagram, LogIn } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { GradientButton } from "@/components/ui/gradient-button";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { cn } from "@/lib/utils";
 import { NAVIGATION } from "@/lib/constants";
-import { composerReveal, composerStaggerContainer, composerStaggerItem } from "@/lib/animations";
+import { composerStaggerContainer, composerStaggerItem } from "@/lib/animations";
 
 export function Navigation() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -112,7 +111,7 @@ export function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-4 lg:space-x-6 xl:space-x-8">
-            {NAVIGATION.map((item, index) => {
+            {NAVIGATION.map((item) => {
               const isActive = (item.href === '/' && activeSection === 'home') || 
                 (item.href.startsWith('#') && activeSection === item.href.substring(1));
               
@@ -358,7 +357,7 @@ export function Footer() {
             
             {/* Social Links */}
             <div className="flex space-x-3">
-              {socialLinks.map((social, index) => (
+              {socialLinks.map((social) => (
                 <motion.a
                   key={social.name}
                   href={social.href}
@@ -385,7 +384,7 @@ export function Footer() {
           </motion.div>
 
           {/* Footer Sections */}
-          {footerSections.map((section, sectionIndex) => (
+          {footerSections.map((section) => (
             <motion.div 
               key={section.title}
               {...composerStaggerItem}

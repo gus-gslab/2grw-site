@@ -17,7 +17,7 @@ export default function PricingPage() {
       
       <main className="relative pt-16" style={{ zIndex: 10 }}>
         <section className="relative">
-          <DistributedBackground variant="pricing" />
+          <DistributedBackground variant="hero" />
           <PricingSection />
         </section>
       </main>
