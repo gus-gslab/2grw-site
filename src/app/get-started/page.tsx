@@ -17,7 +17,7 @@ export default function GetStartedPage() {
       
       <main className="relative pt-16" style={{ zIndex: 10 }}>
         <section className="relative">
-          <DistributedBackground variant="get-started" />
+          <DistributedBackground variant="hero" />
           <GetStartedSection />
         </section>
       </main>

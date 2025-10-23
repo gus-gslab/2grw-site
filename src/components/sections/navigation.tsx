@@ -5,14 +5,14 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-import { Menu, X, Twitter, Linkedin, Github, Instagram, Mail, LogIn, Sun } from "lucide-react";
+import { Menu, X, Twitter, Linkedin, Github, Instagram, LogIn } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { GradientButton } from "@/components/ui/gradient-button";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { cn } from "@/lib/utils";
 import { NAVIGATION } from "@/lib/constants";
-import { composerReveal, composerStaggerContainer, composerStaggerItem, composerHover } from "@/lib/animations";
+import { composerReveal, composerStaggerContainer, composerStaggerItem } from "@/lib/animations";
 
 export function Navigation() {
   const [isOpen, setIsOpen] = React.useState(false);

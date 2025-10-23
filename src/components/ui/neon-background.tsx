@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { motion } from "framer-motion";
-import { neonBackgroundPurple, neonBackgroundCyan, neonBackgroundGreen, neonBackgroundPink } from "@/lib/animations";
+import { neonBackgroundPurple, neonBackgroundCyan, neonBackgroundGreen } from "@/lib/animations";
 
 export function NeonBackground() {
   return (
