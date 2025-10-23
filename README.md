@@ -41,7 +41,7 @@ Site institucional moderno, responsivo e otimizado para SEO que converte visitan
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/2grw/2grw-site.git
+git clone https://github.com/gus-gslab/2grw-site.git
 cd 2grw-site
 ```
 
@@ -229,7 +229,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 **Gustavo Girard** - [@gustavogirard](https://twitter.com/gustavogirard) - gustavo@2grw.com
 
-Link do Projeto: [https://github.com/2grw/2grw-site](https://github.com/2grw/2grw-site)
+Link do Projeto: [https://github.com/gus-gslab/2grw-site](https://github.com/gus-gslab/2grw-site)
 
 ---
 
